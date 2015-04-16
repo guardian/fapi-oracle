@@ -24,6 +24,7 @@ fapi-oracle http://www.thegardian.com localhost:9000 -o out.diff
 
 * `-p priority` For instance `editorial`, `commercial` or `training`. Defaults to all.
 * `-l N` Limit to N fronts. e.g. `-l 5` compares the first 5 fronts.
+* `--parallel N` Fetch N fronts in parallel. Defaults to 4.
 
 ## Warning
 
